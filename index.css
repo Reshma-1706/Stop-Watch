@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0,0%,90%);
+}
+#myH1{
+    font-size: 4rem;
+    font-family: Arial;
+    text-align:center ;
+    color: hsl(0,0%,25%);
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border:5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size:5rem;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size:1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    margin:5px;
+    border:none;
+    cursor: pointer;
+    color:white;
+    border-radius: 10px;
+    min-width: 125px;
+}
+#startBtn{
+    background-color: #02ef11;
+}
+#startBtn:hover{
+    background-color: #04860d;
+}
+#stopBtn{
+    background-color: #ef0202;
+}
+#stopBtn:hover{
+    background-color: #610303;
+}
+#resetBtn{
+    background-color: #0ca8f0;
+}
+#resetBtn:hover{
+    background-color: #066a99;
+}
